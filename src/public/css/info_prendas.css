@@ -89,3 +89,30 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .producto-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .producto-imagen,
+    .producto-detalles {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .producto-detalles h2 {
+        font-size: 20px;
+    }
+
+    .producto-detalles p,
+    .producto-detalles ul li {
+        font-size: 14px;
+    }
+
+    .btn-add-to-cart {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
