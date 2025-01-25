@@ -1,12 +1,12 @@
 body {
-    background-color: red;
+    --bs-body-bg: #4a5873 ;
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #4a5873;
+    background-color: black;
     padding: 20px;
     text-align: center;
 }

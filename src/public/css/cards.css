@@ -17,8 +17,13 @@
 }
 
 .card-title {
+    color: black;
     font-size: 1.2em;
     margin-bottom: 10px;
+}
+
+.card-text {
+    color: gray;
 }
 
 footer {

@@ -3,13 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="/css/formulario.css">
     <%- include('partials/head') %>
 
 </head>
 <%- include('partials/navigation') %>
 
 <body>
-    <h1>Contactanos</h1>
+    <div class="container">
+        <!-- Columna del formulario -->
+        <div class="form-column">
+            <h1>Contáctanos</h1>
+            <form action="/send-message" method="POST">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    
+        <!-- Columna de la imagen -->
+        <div class="image-column">
+            <img src="/img/imagen_modelo.jpg" alt="Logo de Reload">
+        </div>
+    </div>
+    
 </body>
 </html>
