@@ -9,6 +9,7 @@ router.get('/login', (req, res) => res.render('log', {title:'login'}));
 router.get('/register', (req, res) => res.render('regis', {title:'Registro'}));
 router.get('/informacion', (req, res) => res.render('sobre_nosotros', {title:'Nosotros'}));
 router.get('/infochaqueta', (req, res) => res.render('info_chaqueta', {title:'Chaqueta'}));
+router.get('/infoshort', (req, res) => res.render('info_short', {title:'Short'}));
 
 
 export default router;
