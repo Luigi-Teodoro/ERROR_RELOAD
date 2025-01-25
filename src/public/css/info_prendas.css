@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.producto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.producto-imagen {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.producto-imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto-detalles {
+    flex: 2;
+    padding: 10px;
+}
+
+.producto-detalles h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: black;
+}
+
+.producto-detalles p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: black;
+}
+
+.producto-detalles ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px; /* Añade un margen inferior para separar el botón */
+}
+
+.producto-detalles ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.producto-detalles ul li strong {
+    color: white;
+}
+
+.producto-acciones {
+    text-align: center;
+}
+
+.btn-add-to-cart {
+    padding: 10px 20px;
+    background-color: #4a5873;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #3b4760;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

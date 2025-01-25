@@ -3,52 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reload Registro</title>
+    <title>Registro</title>
+    <link rel="stylesheet" href="/css/regis.css">
     <%- include('partials/head') %>
-
-
 </head>
-<%- include('partials/navigation') %>
-
 <body>
-    <header>
-        <h1>RELOAD</h1>
-    </header>
+    <%- include('partials/navigation') %>
     <div class="register-container">
-        <div class="header">
-            <h1>Empieza a utilizar Reload.</h1>
-        </div>
-        <div class="ask-text">
-            <p>¿Ya tienes una cuenta?<a href="login">Inicia sesión</a>
-        </div>
-        <form class="register-form">
-            <h3>REGISTRO</h3>
+        <h1>Registro</h1>
+        <form action="/register" method="POST">
             <div class="form-group">
-                <label for="email">Nombre completo</label>
-                <div class="input-wrapper">
-                    <span class="icon">👤</span>
-                    <input type="name" id="name" placeholder="Ingrese su nombre" required>
-                </div>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
             </div>
             <div class="form-group">
-                <label for="email">Correo electrónico</label>
-                <div class="input-wrapper">
-                    <span class="icon">📧</span>
-                    <input type="email" id="email" placeholder="Ingrese su email" required>
-                </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="password">Contraseña</label>
-                <div class="input-wrapper">
-                    <span class="icon">🔒</span>
-                    <input type="password" id="password" placeholder="Ingrese su contraseña" required>
-                </div>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit" class="register-button">REGISTRAR</button>
+            <button type="submit" class="register-button">REGISTRARSE</button>
         </form>
-        <div class="terms">
-            Al unime acepto recibir correos electrónicos de Reload
+        <div class="login-link">
+            ¿Ya tienes una cuenta? <a href="/login">Inicia sesión</a>
         </div>
     </div>
+    <footer>
+        <p>&copy; 2025 Reload</p>
+    </footer>
 </body>
 </html>
