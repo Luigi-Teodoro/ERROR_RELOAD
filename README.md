@@ -11,4 +11,8 @@ Este proyecto está configurado para usar Express.js como dependencia principal.
 Para instalar las dependencias del proyecto, ejecuta:
 
 ```sh
+
 npm install
+
+
+npm run dev
