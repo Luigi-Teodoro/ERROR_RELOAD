@@ -20,7 +20,11 @@ router.get('/solochaquetas', (req, res) => res.render('solo_chaquetas', {title:'
 router.get('/soloshort', (req, res) => res.render('solo_short', {title:'Shorts'}));
 router.get('/solopolos', (req, res) => res.render('solo_polos', {title:'Polos'}));
 router.get('/solojeans', (req, res) => res.render('solo_jeans', {title:'Jeans'}));
-
+router.get('/infogorra', (req, res) => res.render('info_gorra', {title:'Gorra'}));
+router.get('/infobuzo2', (req, res) => res.render('info_buzo2', {title:'Buzo'}));
+router.get('/infobuzo1', (req, res) => res.render('info_buzo1', {title:'Buzo'}));
+router.get('/solobuzos', (req, res) => res.render('solo_buzos', {title:'Buzos'}));
+router.get('/sologorras', (req, res) => res.render('solo_gorras', {title:'Gorras'}));
 
 
 
