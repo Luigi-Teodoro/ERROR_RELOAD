@@ -80,15 +80,7 @@ body {
     background-color: #3b4760;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 0px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+
 
 @media (max-width: 768px) {
     .producto-container {

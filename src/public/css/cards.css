@@ -26,12 +26,3 @@
     color:  #a0a4a7;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
