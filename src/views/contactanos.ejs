@@ -15,7 +15,7 @@
         <!-- Columna del formulario -->
         <div class="form-column">
             <h1>Contáctanos</h1>
-            <form action="/send-message" method="POST">
+            <form action="https://formsubmit.co/267af5fa972c82aa31ad1f22ee3f614b" method="POST" />
                 <div class="form-group">
                     <label for="name">Nombre:</label>
                     <input type="text" id="name" name="name" required>
@@ -29,6 +29,9 @@
                     <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
                 <button type="submit">Enviar mensaje</button>
+
+                <input type="hidden" name="_next" value="htpp://localhost:4000/contact">
+                <input type="hidden" name="_captcha" value="false">
             </form>
             <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
